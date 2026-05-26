@@ -39,6 +39,96 @@ const dados = {
             "gravadora": "Parlophone",
             "descricao": "Beatles for Sale reflete o cansaço da banda com a rotina exaustiva da Beatlemania, trazendo uma sonoridade mais melancólica e fortes influências do folk rock e do country.",
             "texto": "Lançado em 4 de dezembro de 1964 pela Parlophone, Beatles for Sale é o quarto álbum de estúdio do grupo. Gravado em meio a uma intensa rotina de turnês globais e gravações, o disco transmite visivelmente o esgotamento físico e mental dos integrantes. Musicalmente, o álbum marca o início de uma transição profunda, muito influenciada pelo encontro com Bob Dylan, resultando em letras mais introspectivas e melancólicas de John Lennon (como 'I'm a Loser' e 'No Reply'). Para aliviar a pressão de compor material inédito com tanta rapidez, os Beatles voltaram a incluir covers de rock and roll, country e R&B, mas ainda assim emplacaram clássicos autorais gigantescos como 'Eight Days a Week'."
+        },
+        {
+            "id": 5,
+            "nome": "Help!",
+            "capa": "assets/img/help cover.jpg",
+            "faixas": ["Help!", "The Night Before", "You've Got To Hide Your Love Away", "I Need You", "Another Girl", "Your're Going to Lose That Girl", "Ticket to Ride", "Act Naturally", "It's Only Love", "You Like Me Too Much", "Tell me What You See", "I've Just Seen a Face", "Yesterday", "Dizzy Miss Lizzy"],
+            "lancamento": "6 de agosto de 1965",
+            "gravadora": "Parlophone",
+            "descricao": "Help!, quinto álbum da discografia dos Beatles, também foi lançado junto com um filme homônimo, tendo um lado de seu disco voltado para faixas da trilha sonora do filme, assim como em A Hard Day's Night.",
+            "texto": "Help!, quinto álbum da discografia dos Beatles, veio a público no dia 6 de agosto de 1965 e surfou a crista da onda da Beatlemania, tendo sido um sucesso desde os singles até atingir o topo das paradas britânicas. O álbum acompanhou o filme homônimo, contendo faixas de sua trilha sonora em um lado e um conjunto de faixas não presentes no filme em outro lado, como em A Hard Day's Nigth. Yesterday se tornou o maior sucesso do álbum, e uma das faixas mais importantes compostas por Paul McCartney. Lennon e McCartney compuseram a maior parte das faixas do álbum e Harrisson compôs duas faixas."
+        },
+        {
+            "id": 6,
+            "nome": "Rubber Soul",
+            "capa": "assets/img/rubber soul cover.jpg",
+            "faixas": ["Drive My Car", "Norwegian Wood (This Bird Has Flown)", "You Won't See Me", "Nowhere Man", "Think for Yourself", "The Word", "Michelle", "What Goes On", "Girl", "I'm Looking Through You", "In My Life", "Wait", "If I Needed Someone", "Run for Your Life"],
+            "lancamento": "3 de dezembro de 1965",
+            "gravadora": "Parlophone",
+            "descricao": "Rubber Soul, sexto álbum de estúdio da banda, é tido como um grande divisor na discografia dos Beatles, desvinculando a banda da sonoridade rock n'roll clássico, e trazendo referências principalmente ao folk, tendo sido muito influenciado pela relação dos Beatles com Bob Dylan.",
+            "texto": "Lançado em 3 de dezembro de 1965, Rubber Soul marcava uma virada na trajetória dos Beatles. O produtor George Martin relata que os quatro estavam cada vez mais interessados em sonoridades novas, e queriam que cada faixa fosse verdadeiramente diferente. O interesse de George pela música indiana que tomaria muito destaque nos próxiumos álbuns começava a se expressar em Norwegian Wood, e faixas como Michelle e In My Life consolidavam Paul em boa fase. John adicionou Nowhere Man ao seu legado também nesse álbum, refletindo suas composições mais psicológicas e intimistas"
+        },
+        {
+            "id": 7,
+            "nome": "Revolver",
+            "capa": "assets/img/revolver cover.jpg",
+            "faixas": ["Taxman", "Eleanor Rigby", "I'm Only Sleeping", "Love You To", "Here There And Everywhere", "Yellow Submarine", "She Said She Said", "Good Day Sunshine", "And Your Bird Can Sing", "For No One", "Doctor Robert", "I Want To Tell You", "Good Day Sunshine", "Tomorrow Never Knows"],
+            "lancamento": "5 de agosto de 1966",
+            "gravadora": "Parlophone",
+            "descricao": "Revolver mostra os Beatles em seu auge no seu sétimo álbum. Eleanor Rigby, Here There And Everywhere e Yellow Submarine são exemplos de clássicos da banda que nasceram nesse trabalho, marcado por ter tido sessões mais longas de estúdio e um menor número de apresentaçãoes ao vivo de suas faixas.",
+            "texto": "Lançado em 5 de agosto de 1966, Revolver continua a mudança de sonoridade iniciada por Rubber Soul, pela influência indiana em George Harrisson, a diversificação nos temas das letras de John Lennon e o refino das faixas compostas por Paul. Os Beatles continuavam sendo um secesso comercial, Revolver alcançou o topo das paradas britânicas e estadunidenses, ainda que tenha sido completamente focado nas gravações no estúdio, preterindo os shows e as turnês extensivas. Os membros da banda, o produtor George Martin e a crítica reconheceram em Revolver uma inovação musical em larga escala, com novas técnicas de gravação e ideias ousadas para cada faixa."
+        },
+        {
+            "id": 8,
+            "nome": "Sgt. Pepper's Lonely Hearts Club Band",
+            "capa": "assets/img/sgt pepper cover.jpg",
+            "faixas": ["Sgt. Pepper's Lonely Hearts Club Band", "With a Little Help from My Friends", "Lucy in the Sky with Diamonds", "Getting Better", "Fixing a Hole", "She's Leaving Home", "Being for the Benefit of Mr. Kite!", "Within You Without You", "When I'm Sixty-Four", "Lovely Rita", "Good Morning Good Morning", "Sgt. Pepper's Lonely Hearts Club Band (Reprise)", "A Day in the Life"],
+            "lancamento": "26 de maio de 1967",
+            "gravadora": "Parlophone",
+            "descricao": "Oitavo álbum de estúdio dos Beatles, Sgt. Pepper's continua a dedicação da banda ao estúdio e a empolgação em explorar novas sonoridades. O álbum se tornou um clássico na história da música popular.",
+            "texto": "Publicado no dia 26 de maio de 1967, Sggt. Peppers é um dos principais albuns da discografia dos Beatles, a dedicação exclusiva ao estúdio continuava no trabalho da banda, a possibilidade de compor sem pensar na viabilidade de performar as músicas ao vivo e em gastar mais tempo compondo e gravando levaram o álbum a ser mais complexo e mais inventivo. Àquela altura, a imagem que os Beatles criaram com a Beatlemania já tinha sido completamente refeita, Sgt. Peppers seria muito aceito no movimento hippie e consolidava a imagem da banda como inovadores da música de quem não se poderia saber o que esperar como próximo movimento."
+        },
+        {
+            "id": 9,
+            "nome": "Magical Mistery Tour",
+            "capa": "assets/img/mistery cover.jpg",
+            "faixas": ["Magical Mystery Tour", "The Fool on the Hill", "Flying", "Blue Jay Way", "Your Mother Should Know", "I Am the Walrus", "Hello, Goodbye", "Strawberry Fields Forever", "Penny Lane", "Baby, You're a Rich Man", "All You Need Is Love"],
+            "lancamento": "27 de novembro de 1967",
+            "gravadora": "Parlophone",
+            "descricao": "O nono álbum de estúdio da discografia, Magical Mystery Tour, reúne a trilha sonora psicodélica do filme homônimo da banda com singles que não fazem parte da trilha, seguindo com a onda experimental dos Beatles",
+            "texto": "Lançado em 27 de novembro de 1967, Magical Mystery Tour foi planejado para ser um EP duplo contendo a trilha sonora do filme homônimo feito para a televisão. Nos Estados Unidos, a Capitol Records expandiu o projeto para um álbum completo, adicionando no lado B singles lançados pela banda ao longo daquele ano. O disco é uma continuação da era psicodélica de Sgt. Pepper's, trazendo muito do lado vanguardista de John Lennon, como em I Am the Walrus ou Strawberry Fields Forever, Paul McCartney tinha mais um grande sucesso com Penny Lane, e All You Need Is Love viria a ser considerada um clássico da banda. Posteriormente, a versão em LP americano foi integrada à discografia oficial da banda."
+        },
+        {
+            "id": 10,
+            "nome": "The Beatles",
+            "capa": "assets/img/white cover.jpg",
+            "faixas": ["Back in the U.S.S.R.", "Dear Prudence", "Glass Onion", "Ob-La-Di, Ob-La-Da", "Wild Honey Pie", "The Continuing Story of Bungalow Bill", "While My Guitar Gently Weeps", "Happiness Is a Warm Gun", "Martha My Dear", "I'm So Tired", "Blackbird", "Piggies", "Rocky Raccoon", "Don't Pass Me By", "Why Don't We Do It in the Road?", "I Will", "Julia", "Birthday", "Yer Blues", "Mother Nature's Son", "Everybody's Trying to Make Love to My Baby", "Sexy Sadie", "Helter Skelter", "Long, Long, Long", "Revolution 1", "Honey Pie", "Savoy Truffle", "Cry Baby Cry", "Revolution 9", "Good Night"],
+            "lancamento": "22 de novembro de 1968",
+            "gravadora": "Apple Records",
+            "descricao": "Décimo álbum da carreira do Beatles, 'O Álbum Branco', como é conhecido, é uma obra dupla massiva e eclética que reflete as individualidades dos integrantes, misturando mais gêneros e trazendo experimentações vanguardistas.",
+            "texto": "Lançado em 22 de novembro de 1968 pela Apple Records, The Beatles — mais conhecido pelo público como 'Álbum Branco' devido à sua capa minimalista — captura a banda em um momento de transição complexo. Após uma viagem de meditação à Índia, o grupo acumulou dezenas de composições, mas as tensões internas fizeram com que o disco funcionasse quase como quatro projetos solo gravados juntos. O resultado é extremamente diverso, indo desde Paul McCartney com a delicada Blackbird a John Lennon com Helter Skelter, considerada precursora do heavy metal, While My Guitar Gently Weeps, com a participação de Eric Clapton, ajudaria a consolidar o nome de George Harrison como compositor, e Ringo ainda teve sua primeira faixa autoral solo, Don't Pass Me By."
+        },
+        {
+            "id": 11,
+            "nome": "Yellow Submarine",
+            "capa": "assets/img/yellow submarine cover.jpg",
+            "faixas": ["Yellow Submarine", "Only a Northern Song", "All Together Now", "Hey Bulldog", "It's All Too Much", "All You Need Is Love", "Pepperland", "Sea of Time", "Sea of Holes", "Sea of Monsters", "March of the Meanies", "Pepperland Laid Waste", "Yellow Submarine in Pepperland"],
+            "lancamento": "17 de janeiro de 1969",
+            "gravadora": "Apple Records",
+            "descricao": "Yellow Submarine, lançado como décimo primeiro item da discografia, é a trilha sonora do filme animado homônimo da banda, mesclando clássicos psicodélicos, faixas inéditas de rock e as composições instrumentais orquestradas por George Martin.",
+            "texto": "Lançado em 13 de janeiro de 1969, Yellow Submarine funciona como a trilha sonora oficial da animação de mesmo nome. O disco possui uma estrutura única: o lado A apresenta seis canções dos Beatles (incluindo a faixa-título e 'All You Need Is Love', que já haviam sido lançadas antes, além de quatro canções inéditas como Hey Bulldog de John Lennon e It's All Too Much de George Harrison. Já o lado B é inteiramente dedicado à trilha sonora instrumental orquestral composta pelo produtor da banda, George Martin, o álbum reflete a psicodelia e o surrealismo do filme."
+        },
+        {
+            "id": 12,
+            "nome": "Abbey Road",
+            "capa": "assets/img/abbey road cover.jpg",
+            "faixas": ["Come Together", "Something", "Maxwell's Silver Hammer", "Oh! Darling", "Octopus's Garden", "I Want You (She's So Heavy)", "Here Comes the Sun", "Because", "You Never Give Me Your Money", "Sun King", "Mean Mr. Mustard", "Polythene Pam", "She Came In Through the Bathroom Window", "Golden Slumbers", "Carry That Weight", "The End", "Her Majesty"],
+            "lancamento": "26 de setembro de 1969",
+            "gravadora": "Apple Records",
+            "descricao": "Último álbum a ser gravado pelos Beatles e penúltimo lançado, Abbey Road marca o fim da banda, que depois das tensas sessões de gravação de Let It Be, conseguem atingir uma de suas principais obras, com clássicos para todos os quatro compositores e um grande medley no lado B",
+            "texto": "Lançado em 26 de setembro de 1969, Abbey Road marca o fim do trabalho dos Beatles. As gravações de Let It Be haviam escancarado as tensões entre os membros da banda, e o quão diferentes eram os caminhos que os quatro seguiriam, em Abbey Road ainda havia a possibilidade de os quatro Beatles emplacarem faixas importantes para os seus legados individuais e coletivos. Um dos feitos mais comentados de Abbey Road é seu medley final, composto por nove faixas diversas mas interligadas, marcadas pela repetição ao começo e ao fim do tema de You Never Give Me Your Money. Abbey Road foi a última gravação de estúdio dos Beatles, mas foi lançado antes de Let It Be, pois teve sua produção finalizada antes"
+        },
+        {
+            "id": 13,
+            "nome": "Let It Be",
+            "capa": "assets/img/let it be cover.jpg",
+            "faixas": ["Two of Us", "Dig a Pony", "Across the Universe", "I Me Mine", "Dig It", "Let It Be", "Maggie Mae", "I've Got a Feeling", "One After 909", "The Long and Winding Road", "For You Blue", "Get Back"],
+            "lancamento": "8 de maio de 1970",
+            "gravadora": "Apple Records",
+            "descricao": "Let It Be foi o último álbum lançado pelos Beatles e o penúltimo gravado, as sessões foram extremamente tensas, o álbum iniciou como um projeto de rock mais básico chamado Get Back, mas só foi concluído com outro conceito e sonoridade.",
+            "texto": "Lançado em 8 de maio de 1970, Let It Be é o último álbum de estúdio da discografia oficial dos Beatles. Gravado em grande parte antes de 'Abbey Road', sob o título provisório de 'Get Back', o projeto tinha como objetivo registrar a banda tocando ao vivo, com uma produção mais crua e sem grandes truques. Após ser temporariamente engavetado devido às tensões internas, o material gravado foi confiado ao produtor Phil Spector. Ele adicionoi orquestrae e coros às faixase as finalizou. O álbum só foi lançado menos de um mês depois do anúncio oficial do fim do grupo."
         }
     ]
 }
