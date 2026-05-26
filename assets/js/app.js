@@ -132,12 +132,3 @@ const dados = {
         }
     ]
 }
-
-preencheCards = () => {
-    for(let i = 0; i < dados.albuns.length; i++)
-    {
-        document.getElementById(`card-capa${i+1}`).src = dados.albuns[i].capa;
-        document.getElementById(`card-titulo${i+1}`).innerText = dados.albuns[i].nome;
-        document.getElementById(`card-descricao${i+1}`).innerText = dados.albuns[i].descricao;
-    }
-}

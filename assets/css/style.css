@@ -12,6 +12,11 @@ header {
     color: white;
 }
 
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
 #logo {
     width: 15%;
     padding: 20px;

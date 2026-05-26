@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do álbum</title>
+</head>
+<body onload="mostraTela()">
+    <div id="tela">
+
+    </div>
+
+    <script src="assets/js/app.js"></script>
+    <script>
+        mostraTela = () => {
+            let params = new URLSearchParams(location.search);
+            let id = params.get('id');
+            album = dados.albuns.find ((item) => {
+                return (item.id == id);
+            });
+
+            if(album)
+            {
+                document.getElementById('tela').innerHTML = `
+                    <h3>${album.nome}</h3>
+                `
+            }
+        }
+    </script>
+</body>
+</html>
