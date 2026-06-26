@@ -26,38 +26,45 @@ a {
     width: 80%;
 }
 
-#topo{
+/*Partes do CSS referentes à página principal*/
+
+footer {
     background-color: #215535;
     color: #f6ffe1;
-    padding: 20px;
-    padding-bottom: 15px;
 }
 
-#tituloMeio{
-    background-color: #215535;
-    color: #f6ffe1;
+footer a {
+    text-decoration: underline !important;
+}
+
+footer h4 {
     padding: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-#infoAluno{
-    display: grid;
-    grid-template-columns: 6fr 4fr;
+footer h6 {
+    display: inline;
 }
 
-#banda {
+#conteudoAutoria {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 85%;
-    margin: 0 auto;
+    gap: 20px;
 }
 
-.areaBanda h3 {
-    width: 85%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+#topo {
+    background-color: #215535;
+    color: #f6ffe1;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+#tituloMeio {
+    background-color: #215535;
+    color: #f6ffe1;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .card {
@@ -78,16 +85,133 @@ a {
     border: solid #afe46a 1px;
 }
 
-.beatle {
-    margin: 5px;
-    transition: 0.1s;
+#infoAluno {
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: #1c3829;
+    color: white;
 }
 
-.beatle:hover {
-    transform: scale(1.1);
-    margin: 0;
-    padding: 10px;
-    background-color: #b9da92;
+/*Partes do CSS referentes à página de detalhes*/
+
+#sessaoFotos {
+    padding: 20px 25px;
+    margin-top: 0;
+    background-color: #1c3829;
+    color: white;
+    text-align: center;
 }
+
+#roloFotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1c3829;
+    color: white;
+}
+
+#sessaoFotos img {
+    height: 16.9rem;
+    width: auto;
+    border: black solid 1px;
+    margin-top: 10px;
+}
+ 
+#pagAlbum {
+    margin: 20px 0;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+#conteudoAlbum {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#conteudoAlbum img {
+    max-height: 400px;
+    padding: 7px;
+    border: #283e0f solid 1px;
+}
+
+#infoPrincipais {
+    margin-top: 10px;
+}
+
+#infoPrincipais h6 {
+    display: inline;
+}
+
+/*MediaQuerys*/
+
+@media screen and (max-width: 480px) {
+    #logo {
+        width: 100%;
+        display: block     
+    }
+
+    #logo img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #pagAlbum {
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #roloFotos {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #sessaoFotos img {
+        width: 75%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+    #logo {
+        width: 100%;
+        display: block     
+    }
+
+    #logo img {
+        width: 35%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #topo {
+        text-align: center;
+    }
+
+    #tituloMeio {
+        text-align: center;
+    }
+
+    #pagAlbum {
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #roloFotos {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #sessaoFotos img {
+        width: 75%;
+        height: auto;
+    }
+}
+
+
+
 
 

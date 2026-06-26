@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes do álbum</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head>
 <body onload="mostraTela()">
-    <div id="tela">
+    <header class="w-100">
+        <div id="containerHeader" class="row">
+            <div id="logo">
+                <a href="index.html"><img src="assets/img/Beatles logo.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="pagAlbum">
+            <div id="conteudoAlbum">
+            </div>
+            <div id="infoPrincipais">
+            </div>
+        </div>
 
-    </div>
+        <div id="sessaoFotos">
+            <h4>Fotos do álbum</h4>
+            <div id="roloFotos">
+            </div>
+        </div>
+    </main>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
     <script>
         mostraTela = () => {
@@ -21,9 +44,54 @@
 
             if(album)
             {
-                document.getElementById('tela').innerHTML = `
+                document.getElementById('conteudoAlbum').innerHTML = `
                     <h3>${album.nome}</h3>
+                    <img src="${album.capa}">
+                    <br>
                 `
+
+                document.getElementById('infoPrincipais').innerHTML += `
+                    <h6>Descrição: </h6>
+                    ${album.texto}
+                    <br><br>
+                    <h5>Ficha técnica</h5>
+                    <h6>Faixas: </h6>
+                `
+
+                for(let i = 0; i < album.faixas.length; i++)
+                {
+                    if(i != album.faixas.length - 1)
+                    {
+                        document.getElementById('infoPrincipais').innerHTML += `
+                            ${album.faixas[i]} | 
+                        `
+                    }
+                    else
+                    {
+                        document.getElementById('infoPrincipais').innerHTML += `
+                            ${album.faixas[i]}.
+                        ` 
+                    }
+                }
+
+                document.getElementById('infoPrincipais').innerHTML += `
+                    <br><br>
+                    <h6>Gravadora: </h6>${album.gravadora}
+                    <br><br>
+                    <h6>Data de lançamento: </h6>${album.lancamento}
+                    <br><br>
+                    <h6>Duração: </h6>${album.duracao}
+                `
+
+                for(let i = 0; i < album.fotos.length; i++)
+                {
+                    document.getElementById('roloFotos').innerHTML += `
+                        <div class="foto">
+                            <img src="${album.fotos[i].foto}" alt="">
+                            <h6>${album.fotos[i].titulo}</h6>
+                        </div>
+                    `
+                }
             }
         }
     </script>

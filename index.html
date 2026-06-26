@@ -10,8 +10,10 @@
 </head>
 <body class="w-100" onload="preencheCards()">
     <header class="w-100">
-        <div id="logo">
-            <img src="assets/img/Beatles logo.png" alt="">
+        <div id="containerHeader" class="row">
+            <div id="logo">
+                <img src="assets/img/Beatles logo.png" alt="">
+            </div>
         </div>
     </header>
     <main class="w-100">
@@ -23,35 +25,9 @@
                 <button type="button" data-bs-target="#carrosselAlbuns" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carrosselAlbuns" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carrosselAlbuns" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carrosselAlbuns" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center" style="background-color: rgb(61, 65, 55); height: 70vh;">
-                        <img src="assets/img/revolver cover.jpg" class="d-block w-auto" alt="capa_revolver">
-                    </div>
-                    <div class="carousel-caption d-none d-md-block start-0 bottom-0 w-100" style="background-color: rgba(10, 18, 12, 0.6);">
-                        <h5>Revolver (1966)</h5>
-                        <p>Sétimo álbum de estúdio dos Beatles</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center" style="background-color: rgb(61, 65, 55); height: 70vh;">
-                        <img src="assets/img/abbey road cover.jpg" class="d-block w-auto" alt="capa_revolver">
-                    </div>
-                    <div class="carousel-caption d-none d-md-block start-0 bottom-0 w-100" style="background-color: rgba(10, 18, 12, 0.6);">
-                        <h5>Abbey Road (1969)</h5>
-                        <p>Penúltimo álbum de estúdio dos Beatles</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center" style="background-color: rgb(61, 65, 55); height: 70vh;">
-                        <img src="assets/img/help cover.jpg" class="d-block w-auto" alt="capa_revolver">
-                    </div>
-                    <div class="carousel-caption d-none d-md-block start-0 bottom-0 w-100" style="background-color: rgba(10, 18, 12, 0.6);">
-                        <h5>Help (1965)</h5>
-                        <p>Quinto álbum de estúdio dos Beatles</p>
-                    </div>
-                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carrosselAlbuns" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -65,77 +41,7 @@
         <div id="tituloMeio">
             <h4>Todos os Itens (entidade principal)</h4>
         </div>
-        <div class="row row-cols-1 row-cols-md-4 g-5 mx-2 my-1">
-            <a href="detalhes.html?id=1">
-                <div class="col">
-                    <div class="card" id="card1">
-                    </div>
-                </div>
-            </a>
-            <div class="col">
-                <div class="card" id="card2">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card3">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card4">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card5">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card6">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card7">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card8">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card9">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card10">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card11">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card12">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" id="card13">
-                </div>
-            </div>
-            <div class="col-1 col-md-9 areaBanda">
-                <div id="banda">
-                    <div class="beatle">
-                        <img src="assets/img/george.jpg" alt="">
-                    </div>
-                    <div class="beatle">
-                        <img src="assets/img/paul.jpg" alt="">
-                    </div>
-                    <div class="beatle">
-                        <img src="assets/img/ringo.jpg" alt="">
-                    </div>
-                    <div class="beatle">
-                        <img src="assets/img/john.jpg" alt="">
-                    </div>
-                </div>
-            </div>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-5 mx-2 my-1" id="cardSpace">
         </div>
     </main>
 
@@ -143,12 +49,22 @@
 
     <footer>
         <h4>Informações do Aluno</h4>
-        <div id="infoAluno">
-            <div id="sobre">
+        <div id="infoAluno" class="row">
+            <div id="sobre" class="col-12 col-md-7">
                 <h5>Sobre</h5>
+                <p>O site tem fins educacionais e os direitos das obras são todos dos Beatles.</p>
+                <p>Site oficial da banda: <a href="https://www.thebeatles.com/" target="_blank">https://www.thebeatles.com/</a></p>
             </div>
-            <div id="autoria">
+            <div id="autoria" class="col-12 col-md-5">
                 <h5>Autoria</h5>
+                <div id="conteudoAutoria">
+                    <img src="https://picsum.photos/100/100" alt="" class="d-none d-md-block">
+                    <div class="container2">
+                        <h6>Aluno: </h6>Não informado por causa da av. por pares<br>
+                        <h6>Curso: </h6>Não informado por causa da av. por pares<br>
+                        <h6>Turma: </h6>Noite
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -156,18 +72,72 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
     <script>
+        let grupoSorteio = []
+        let indicesSorteio = []
         preencheCards = () => {
             for(let i = 0; i < dados.albuns.length; i++)
             {
-                document.getElementById(`card${i+1}`). innerHTML = `
-                    <a href="detalhes.html?id=${i+1}">
-                        <img src="${dados.albuns[i].capa}" class="card-img-top" id="card-capa${i+1}" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title" id="card-titulo${i+1}">${dados.albuns[i].nome}</h5>
-                            <p class="card-text" id="card-descricao${i+1}">${dados.albuns[i].descricao}</p>
-                        </div>
-                    </a>
+                document.getElementById("cardSpace").innerHTML += `
+                    <div class="col">
+                        <a href="detalhes.html?id=${dados.albuns[i].id}">
+                            <div class="card">
+                                <img src="${dados.albuns[i].capa}" class="card-img-top" id="card-capa${i+1}" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="card-titulo${i+1}">${dados.albuns[i].nome}</h5>
+                                    <p class="card-text" id="card-descricao${i+1}">${dados.albuns[i].descricao}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 `
+            }
+
+            let i = 0
+            while(i < 4)
+            {
+                numAleatorio = Math.floor(Math.random() * dados.albuns.length);
+                if(!indicesSorteio.includes(numAleatorio))
+                {
+                    indicesSorteio.push(numAleatorio);
+                    grupoSorteio.push(dados.albuns[numAleatorio])
+                    i++
+                }
+            }
+
+            for(let i = 0; i < 4; i++)
+            {
+                if(i == 0)
+                {
+                    document.querySelector('.carousel-inner').innerHTML += `
+                        <a href="detalhes.html?id=${grupoSorteio[i].id}">
+                            <div class="carousel-item active">
+                                <div class="d-flex justify-content-center" style="background-color: rgb(61, 65, 55); height: 70vh;">
+                                    <img src="${grupoSorteio[i].capa}" class="d-block w-auto" alt="">
+                                </div>
+                                <div class="carousel-caption d-none d-md-block start-0 bottom-0 w-100" style="background-color: rgba(10, 18, 12, 0.6);">
+                                    <h5>${grupoSorteio[i].nome}</h5>
+                                    <p>${grupoSorteio[i].id}º álbum de estúdio dos Beatles</p>
+                                </div>
+                            </div>
+                        </a>
+                    `
+                }
+                else
+                {
+                    document.querySelector('.carousel-inner').innerHTML += `
+                        <a href="detalhes.html?id=${grupoSorteio[i].id}">
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center" style="background-color: rgb(61, 65, 55); height: 70vh;">
+                                    <img src="${grupoSorteio[i].capa}" class="d-block w-auto" alt="">
+                                </div>
+                                <div class="carousel-caption d-none d-md-block start-0 bottom-0 w-100" style="background-color: rgba(10, 18, 12, 0.6);">
+                                    <h5>${grupoSorteio[i].nome}</h5>
+                                    <p>${grupoSorteio[i].id}º álbum de estúdio dos Beatles</p>
+                                </div>
+                            </div>
+                        </a>
+                    `                    
+                }
             }
         }
     </script>
